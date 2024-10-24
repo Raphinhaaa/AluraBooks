@@ -1,29 +1,32 @@
-.cabeçalho_menu-hambuguer {
-    width: 24px ;
-    height: 24px ;
+.cabeçalho_menu-hamburguer {
+    width: 24px;
+    height: 24px;
     display: inline-block;
-    background-image: url(menu.svg) ;
-    background-repeat:no-repeat ;
+    background-image: url(Menu.svg);
+    background-repeat: no-repeat;
     background-position: center;
 }
-.cabeçalho {
-  background-color: var(---branco);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.continer {
+
+.container {
     display: flex;
     align-items: center;
 }
-.continer_imagem {
+
+.container_imagem {
     padding: 1em;
 }
- .list_menu {
-    display: none;
- }
 
- .continer_botao:checked ~ .list_menu {
+.lista_menu {
+    display: none;
+}
+
+.container_botao:checked ~ .lista_menu {
     display: block;
- }
+}
